@@ -11,7 +11,7 @@ docker images
 3. Run Docker image
   hostport=5000 ,containerport=5000
 ```
-docker run -p {hostport}:{containerport} welcome-app
+docker run -p {hostport}:{containerport} {image_name}
 docker run -d -p {hostport}:{containerport} welcome-app
 ```
 4. List of running container
